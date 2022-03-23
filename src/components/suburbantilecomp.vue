@@ -1,13 +1,13 @@
 <template>
-  <v-card class="mx-auto" max-width="344">
-    <v-img src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg" height="200px"></v-img>
+  <v-card dark class="mx-auto" max-width="300">
+    <v-img src="../assets/cronostiles/suburbantile.png" height="426px"></v-img>
     <v-card-title>Suburban Tile</v-card-title>
     <v-card-subtitle>Suburban Tile Owner NFT Card</v-card-subtitle>
     <v-card-actions>
-      <v-btn color="orange lighten-2" text>Explore</v-btn>
+      <v-btn color="blue lighten-2">Purchase</v-btn>
       <v-spacer></v-spacer>
       <v-btn icon @click="show = !show">
-        <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+        <v-icon>{{ show ? "mdi-chevron-up" : "mdi-chevron-down" }}</v-icon>
       </v-btn>
     </v-card-actions>
 
@@ -16,7 +16,8 @@
         <v-divider></v-divider>
 
         <v-card-text>
-          Each LAND TILE NFT represents ownership of a digital land plot within The CronosVerse. By owning a LAND TILE, users are able to access The CronosVerse and build their metaverse experience on top of their digital land plot.
+          
+Suburban tiles surround the Commercial Districts and are in close proximity to the Crotopolis City Center. These land tiles come preloaded with modern, colonial, American craftsmen & mid century building materials. All Suburban Tiles can be amalgamated with adjacent Suburban Tiles to a maximum of 4 tiles in the same wallet.
         </v-card-text>
       </div>
     </v-expand-transition>
@@ -25,10 +26,10 @@
 
 <script>
 export default {
-  name: "HelloWorld",
-  props: {
-    msg: String,
-  },
+  name: "suburbantilecomp",
+  data: () => ({
+    show: false,
+  }),
 };
 </script>
 

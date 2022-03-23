@@ -1,20 +1,32 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-import About from "../views/About.vue";
+import landtiles from "../views/landtiles.vue";
+import About from "../views/about.vue";
+import landing from "../views/landing.vue";
+import faq from "../views/faq.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
-    name: "Home",
-    component: Home,
-  },
-  {
     path: "/about",
     name: "About",
     component: About,
+  },
+  {
+    path: "/landtiles",
+    name: "Land Tiles",
+    component: landtiles,
+  },
+  {
+    path: "/",
+    name: "Landing",
+    component: landing,
+  },
+  {
+    path: "/faq",
+    name: "FAQ",
+    component: faq,
   },
 ];
 
