@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import landtiles from "../views/landtiles.vue";
-import About from "../views/about.vue";
+import about from "../views/about.vue";
 import landing from "../views/landing.vue";
 import faq from "../views/faq.vue";
 
@@ -11,7 +11,7 @@ const routes = [
   {
     path: "/about",
     name: "About",
-    component: About,
+    component: about,
   },
   {
     path: "/landtiles",
