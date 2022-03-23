@@ -14,15 +14,7 @@
           community.
         </h1>
         <router-link :to="{ path: '/about' }">
-        <v-btn
-        >
-          Enter <v-icon
-          dark
-          left
-        >
-          mdi-arrow-right
-        </v-icon></v-btn
-        >
+          <v-btn> Enter <v-icon dark left> mdi-arrow-right </v-icon></v-btn>
         </router-link>
       </div>
     </div>
@@ -48,7 +40,7 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 #bg {
   height: 100vh;
 }
@@ -64,14 +56,19 @@ h1 {
   font-family: "Russo One", sans-serif;
   font-size: 50px;
 }
-a:link { text-decoration: none; }
+a:link {
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+}
 
-a:visited { text-decoration: none; }
+a:hover {
+  text-decoration: none;
+}
 
-
-a:hover { text-decoration: none; }
-
-
-a:active { text-decoration: none; }
+a:active {
+  text-decoration: none;
+}
 </style>

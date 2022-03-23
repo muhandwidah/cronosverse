@@ -34,12 +34,18 @@
         </div>
         <div id="btncontainer">
           <router-link :to="{ path: '/landtiles' }">
-          <v-btn id="btns" x-large class="black--text" color="white" dark>Purchase A Land Tile</v-btn>
+            <v-btn id="btns" x-large class="black--text" color="white" dark
+              >Purchase A Land Tile</v-btn
+            >
           </router-link>
           <router-link :to="{ path: '/faq' }">
-          <v-btn id="btns" x-large class="black--text" color="white" dark>CRONOSVERSE FAQ</v-btn>
+            <v-btn id="btns" x-large class="black--text" color="white" dark
+              >CRONOSVERSE FAQ</v-btn
+            >
           </router-link>
-          <v-btn id="btns" x-large class="black--text" color="white" dark>Follow Our Socials</v-btn>
+          <v-btn id="btns" x-large class="black--text" color="white" dark
+            >Follow Our Socials</v-btn
+          >
         </div>
       </div>
     </div>
@@ -108,14 +114,19 @@ p {
   font-family: "Russo One", sans-serif;
   font-size: 18px;
 }
-a:link { text-decoration: none; }
+a:link {
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+}
 
-a:visited { text-decoration: none; }
+a:hover {
+  text-decoration: none;
+}
 
-
-a:hover { text-decoration: none; }
-
-
-a:active { text-decoration: none; }
+a:active {
+  text-decoration: none;
+}
 </style>
